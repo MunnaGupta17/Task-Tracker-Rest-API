@@ -2,10 +2,13 @@ package com.TaskTracker.services;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.TaskTracker.exceptions.InvalidTaskException;
 import com.TaskTracker.exceptions.ResourceNotFoundException;
 import com.TaskTracker.models.Task;
 
+@Service
 public interface TaskServices {
 	
 	/**
