@@ -13,6 +13,9 @@ This is a RESTful API for managing tasks Deployed on Railways Cloud. It allows y
 
 ## API Endpoints
 
+### Base URL
+  - https://task-tracker-rest-api-production.up.railway.app
+
 ### Get All Tasks
 
 - **Endpoint**: `/tasks`
